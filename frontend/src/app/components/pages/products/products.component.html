@@ -1,0 +1,21 @@
+<p>
+  products works!
+</p>
+
+<div class="container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Product</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let i of products">
+        <td><img src="assets/{{i.id}}.jpg"  style="width:150px;height:100px;">ll</td>
+        <td>{{i.Price}}</td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>

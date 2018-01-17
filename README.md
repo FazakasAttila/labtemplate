@@ -46,3 +46,4 @@ npm install -g sequelize-cli
     * [ng2-semantic-ui](https://edcarroll.github.io/ng2-semantic-ui/#/getting-started)
 * [dbdesigner](https://dbdesigner.net/)
 * [Postman](https://www.getpostman.com/)
+* [heidisql](https://www.heidisql.com/)

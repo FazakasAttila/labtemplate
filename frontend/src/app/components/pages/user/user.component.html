@@ -1,0 +1,14 @@
+<p-dataTable #dt [value]="users" selectionMode="single" [(selection)]="selectedUsers" [contextMenu]="cm" [responsive]="true" [scrollable]="true" scrollHeight="400px">
+
+  <p-column field="ID" header="User id" [sortable]="true"></p-column>
+  <p-column field="username" header="Username" [filter]="true" filterPlaceholder="Search" [sortable]="true"></p-column>
+  <p-column field="password" header="Password"></p-column>
+  <p-column field="street_adress" header="Street Adress" [sortable]="true"></p-column>
+  <p-column field="city" header="City" [filter]="true"  [sortable]="true"></p-column>
+  <ng-template pTemplate="emptymessage">
+     empty field
+  </ng-template>
+
+</p-dataTable>
+
+<p-contextMenu #cm [model]="items"></p-contextMenu>
